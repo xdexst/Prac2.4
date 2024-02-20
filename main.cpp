@@ -43,3 +43,8 @@ TBook book1;
     book1.SetCount(10);
 	
  TBook book2("Simba", "Lev Lvovich", 123);
+  cout << "First Book: " << book1.GetName() << ", " << book1.GetAuthor() << ", " << book1.GetCount() << endl;
+    cout << "Second Book: " << book2.GetName() << ", " << book2.GetAuthor() << ", " << book2.GetCount() << endl;
+
+     return 0;
+}
