@@ -33,3 +33,5 @@ void SetName(string newname) {
     void SetCount(int newcount) {
         Count = newcount;
     }
+int main() {
+    setlocale(LC_ALL, "ru");
