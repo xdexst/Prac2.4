@@ -35,3 +35,9 @@ void SetName(string newname) {
     }
 int main() {
     setlocale(LC_ALL, "ru");
+TBook book1;
+
+
+    book1.SetName("Drug");
+    book1.SetAuthor("Nikolay Lvovich");
+    book1.SetCount(10);
