@@ -41,3 +41,5 @@ TBook book1;
     book1.SetName("Drug");
     book1.SetAuthor("Nikolay Lvovich");
     book1.SetCount(10);
+	
+ TBook book2("Simba", "Lev Lvovich", 123);
