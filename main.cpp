@@ -21,3 +21,15 @@ public:
         Author = newauthor;
         Count = newcount;
     }
+	
+void SetName(string newname) {
+        Name = newname;
+    }
+
+    void SetAuthor(string newauthor) {
+        Author = newauthor;
+    }
+
+    void SetCount(int newcount) {
+        Count = newcount;
+    }
